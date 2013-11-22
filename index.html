@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>jQuery Required Form</title>
+			<link href="demo.css" rel="stylesheet">
+			<script src="modernizr.js"></script>
+	</head>
+	<body>
+		<form action="thanks.html">
+			<h1>jQuery Required Form</h1>
+			<ol class="forms">
+				<li>
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" required>
+				</li>
+
+				<li>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" required>
+				</li>
+
+				<li>
+					<label for="phone">Phone</label>
+					<input type="tel" name="phone" id="phone">
+				</li>
+
+				<li>
+					<label for="message">Message</label>
+					<textarea name="message" id="message" required></textarea>
+				</li>
+				<li>
+					<button type="submit">Submit</button>
+				</li>
+			</ol>
+		</form>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="jquery.requiredForm.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('form').requiredForm();
+			});
+		</script>
+	</body>
+</html>
