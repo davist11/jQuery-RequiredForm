@@ -3,6 +3,7 @@
  * @author Trevor Davis
  * @copyright (cc) Trevor Davis (http://www.viget.com)
  * @requires Modernizer with formvalidation
+ * @version 1.0.0
  *
  * Licensed under the CC-GNU GPL (http://creativecommons.org/licenses/GPL/2.0/)
  */
