@@ -2,6 +2,10 @@
 
 Adds form validation to browsers that don't support HTML5 required attributes.
 
+## Demo
+
+http://davist11.github.io/jQuery-RequiredForm/
+
 ## Usage
 
 Add required attributes to the fields that are required. If a browser supports HTML5 validation, it will use that, otherwise it will validate with jQuery.
